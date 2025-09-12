@@ -1,0 +1,1 @@
+%pip install -r /Workspace/Shared/linkedin_scraper/requirements.txt
