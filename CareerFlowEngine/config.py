@@ -5,12 +5,12 @@ from datetime import datetime
 
 # Pipeline Configuration
 MAX_HISTORY_FILES = 15
-MAX_JOBS_PER_LOCATION = 10
+MAX_JOBS_PER_LOCATION = 5
 RETRY_ATTEMPTS = 3
 DELAY_RANGE = (6, 12)
 
 # Search Parameters
-KEYWORDS = "Data Engineer OR Data Analyst OR Machine Learning Engineer OR Data Scientist OR Python Developer OR Software Engineer OR Business Intelligence Analyst OR Analytics Engineer OR AI Engineer"
+KEYWORDS = "Data Engineer OR Data Analyst OR Machine Learning Engineer OR Data Scientist OR Python Developer OR Software Engineer OR Business Intelligence Analyst OR Analytics Engineer OR AI Engineer OR Data Architect OR Visualization Engineer"
 
 LOCATIONS = [
     "India", 
@@ -25,9 +25,25 @@ LOCATIONS = [
     "Switzerland",
     "Sweden",
     "Ireland",
-    "Brazil",
     "Japan",
-    "South Africa"
+    "South Africa",
+    "Norway",
+    "Denmark",
+    "Poland",
+    "Italy",
+    "Mexico",
+    "China",
+    "Malaysia",
+    "Philippines",
+    "New Zealand",
+    "South Korea",
+    "Hong Kong",
+    "Qatar",
+    "Saudi Arabia",
+    "Greece",
+    "Portugal",
+    "Austria",
+    "Finland"
 ]
 
 # Directory Paths
