@@ -18,7 +18,7 @@ except ImportError:
     print("✓ Running in standard Python environment")
 
 # Add the src directory to sys.path
-project_root = '/Workspace/Shared/linkedin_scraper/CareerFlowEngine'
+project_root = '/Workspace/Users/sanjayvm66@gmail.com/Product_company_job_alert/CareerFlowEngine'
 src_path = os.path.join(project_root, 'src')
 if src_path not in sys.path:
     sys.path.insert(0, src_path)
